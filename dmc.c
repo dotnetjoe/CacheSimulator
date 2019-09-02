@@ -33,7 +33,7 @@ void main(int argc, char* argv[]) {
   }
 
   printf("linessize=%d cachelines=%d\n", linesize, cachelines);
- 
+
   /* clear the tags */
   for(i=0; i<cachelines; i++) {
     tags[i] = 0;
