@@ -1,4 +1,4 @@
-# Cache-Simulation
+# Cache-Simulator
 [isort-trace.txt](https://github.com/adamalston/Cache-Simulation/blob/master/isort-trace.txt) represents a cache.
 
 [dmc.c ](https://github.com/adamalston/Cache-Simulation/blob/master/dmc.c) is the program used to analyze this cache.
