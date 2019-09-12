@@ -46,4 +46,3 @@ Express as a number between 0 and 1.
 Express as a number between 0 and 1.
 
 8. What is the speedup provided by the last cache over no caching?
-
