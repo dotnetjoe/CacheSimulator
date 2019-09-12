@@ -24,7 +24,7 @@ For example, to simulate a cache with 8 lines of 16 bytes each you'd use:
 ./dmc 16 8 < isort-trace.txt
 ```
 
-## Below you can answer questions about the results you see from running your simulation on the given data.
+## Below you can answer questions about the results you see from running the simulator on the given data.
 
 1.  How many cycles are required if every access misses?
     - You can measure this by setting linesize=4 and cachelines=1. This is
