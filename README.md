@@ -6,7 +6,7 @@
 # Cache Simulation
 
 
-In this lab you will simulate a direct-mapped cache with a C program.
+This program will simulate a direct-mapped cache with a C program.
 You will read a list of addresses collected from the MIPS simulator
 running the insertion sort code. You will simulate the cache by comparing
 the tag for each address to the tag stored in an array. If the tag is there
@@ -30,15 +30,15 @@ For example, to simulate a cache with 8 lines of 16 bytes each you'd use:
 ## Below you can answer questions about the results you see from running your simulation on the given data.
 
 1.  How many cycles are required if every access misses?
-    - You can measure this by setting linesize=4 and cachelines=1. This is
+    - You can measure this by setting `linesize`=4 and `cachelines`=1. This is
 equivalent to not having the cache.
 
-2.  How many cycles are required for linesize=4 cachelines=16?
+2.  How many cycles are required for `linesize`=4 `cachelines`=16?
 
 3.  What was the hit rate for the cache above?
     * Express as a number between 0 and 1.
 
-4.  How many cycles are required for linesize=16 cachelines=4?
+4.  How many cycles are required for `linesize`=16 `cachelines`=4?
 
 5.  What was the hit rate for the cache above?
 Express as a number between 0 and 1.
